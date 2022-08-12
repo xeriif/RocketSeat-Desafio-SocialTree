@@ -1,0 +1,15 @@
+@media only screen and (min-width: 768px) {
+  header {
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 79px;
+  }
+
+  main a {
+    width: 326px;
+    height: 49px;
+    left: 556px;
+    top: 486px;
+  }
+}

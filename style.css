@@ -1,0 +1,90 @@
+/* GERAL */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* ROOT */
+:root {
+  --cor: #BB99DD;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: center;
+  margin: 126px 0;
+}
+
+header img {
+  padding: 7px;
+  border-radius: 50%;
+  border: 2px solid #BB99DD;
+}
+
+Header p {
+  color: #BB99DD;
+  display: flex;
+}
+
+header figcaption {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 15px;
+  line-height: 24px;
+  font-weight: 300;
+  font-style: normal;
+  justify-content: center;
+}
+
+/* MAIN */
+main {
+  display: flex;
+  justify-content: center;
+}
+
+main .links {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 68px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+main a {
+  color: #BB99DD;
+  text-align: center;
+  max-width: 325 49;
+  margin: 10px 0;
+  border: 3px solid var(--cor);
+  border-radius: 4px;
+  padding: 13px 2px;
+  width: 326px;
+  height: 49px;
+  left: 44px;
+  top: 600px;
+}
+
+main a:hover {
+  transition: 500ms;
+  color: #ffffff;
+  background-color: var(--cor);
+}
+
+/* FOOTER */
+footer .socials {
+  display: flex;
+  justify-content: center;
+  gap: 29px;
+  margin-bottom: 155px;
+}
+
+footer a:hover {
+  transition: 100ms;
+  transform: translateY(-3px);
+}
